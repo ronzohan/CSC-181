@@ -1,0 +1,7 @@
+class DataFile:
+	def generateFile(self,league,manager,events,teams):
+		self.league = league
+		self.manager = manager
+		self.events = events
+		self.teams = teams
+	

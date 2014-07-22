@@ -25,7 +25,7 @@ class FileOperations:
 	def getEventInfos(self,data):
 		return data.events	
 	
-my = DataFile("bundesliga","mourinho","win1win2","chelsea")
+my = DataFile()
 my.league =  "bundesliga"
 fileOperation = FileOperations()
 # fileOperation.SaveFileInfo(my,"sample.p")
