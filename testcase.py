@@ -28,5 +28,7 @@ class MyTest(unittest.TestCase):
 # runner = unittest.TextTestRunner()
 # test_suite = suite()
 # runner.run(test_suite)
+
+# enables to run all the tests defined above at once
 if __name__ == '__main__':
 	unittest.main()
