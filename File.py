@@ -1,5 +1,4 @@
 import cPickle as pickle
-from DataFile import DataFile
 
 class FileOperations:
 	def SaveFileInfo(self,data,filename):
@@ -10,8 +9,6 @@ class FileOperations:
 		data =  pickle.load(open(filename,"rb"))
 		if data.password == password:
 			return data
-	def setPassword(self,password):
-		self.password = password
 	def getLeagueInfo(self,data):
 		return data.league
 	def getManagerInfo(self,data):
